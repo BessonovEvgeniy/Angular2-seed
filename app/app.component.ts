@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
            <li *ngFor = "let name of names"> Hello {{ name }} </li>
         </ul>
     `
-})
+}) 
 
 export class HelloAngular{
     names: string[];
